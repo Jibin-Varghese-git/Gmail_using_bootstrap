@@ -1,0 +1,144 @@
+*
+font-size: .75rem;{
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+body
+{
+	background-color:#F6F8FC;	
+}
+
+/*---title----*/
+
+icon
+{
+	height=10px;
+}
+
+/*---Side bar ----*/
+
+.side_menu
+{
+	background-color:#EAF1FB;
+	width:68px;
+}
+
+.menu_logo_btn
+{
+	border:none;
+	height:50px;
+	width:50px
+}
+
+.menu_logo_btn:hover
+{
+	background-color:#3c404314;
+}
+
+.menu_logo_btn img
+{
+	margin: 15px 0px 0px 15px;
+}
+
+.envelope_logo_btn
+{
+	border:none;
+	height:33px;
+	width:45px;
+	background-color:#D3E3FD;
+	margin-left:12px;
+}	
+
+.envelope_logo_btn img
+{
+	margin:4px 0px 0px 11px ;
+}
+
+.envelope_logo_btn label
+{
+	font-size: .75rem;
+	color: #1f1f1f;
+    	font-weight: 500;
+	margin:6px 0px 0px 10px;
+}
+
+.chat_meet_logo
+{
+	border:none;
+	height:33px;
+	width:45px;
+	margin:25px 0px 0px 12px;
+}
+
+.chat_meet_logo:hover
+{
+	background-color:#dadce0;
+}
+
+.chat_meet_logo img
+{
+	margin:4px 0px 0px 12px ;
+}
+
+.chat_meet_logo label
+{
+	font-size: .75rem;
+	color: #1f1f1f;
+    	font-weight: 500;
+	margin-left:10px;
+}
+
+.input_group i
+{
+	opacity:0.8;
+}
+
+.input_group
+{
+	background-color:#EAF1FB;
+	height:48px;
+	width:44vw;
+}
+
+.input_group input
+{
+	width:38vw;	
+}
+
+.mail_logo_head img
+{
+	margin: 12px 0px 0px 18px;
+}
+
+.header_col_10
+{
+	width:83%;
+}
+
+.header_active_btn
+{
+    	background-color: #eaf1fb;
+    	border: none;
+    	height: 48px;
+	cursor: pointer;
+    	padding: 16px 11px;
+	margin:0px 0px 0px 34px;
+}
+
+.active_green_dot
+{
+	border: none;
+    	background-color: #1e8e3e;
+    	border-radius: 50%;
+    	height: 12px;
+    	width: 12px;
+}
+
+.active_btn_text 
+{
+    	color: #1f1f1f;
+    	text-shadow: none;
+	font-size: 0.875rem;
+    	font-weight: 500;
+	margin: -3px 0px 0px 7px;
+}
