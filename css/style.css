@@ -15,12 +15,13 @@ icon
 	height=10px;
 }
 
-/*---Side bar -----*/
+/*---Side bar ----*/
 
 .side_menu
 {
 	background-color:#EAF1FB;
-	width:68px;
+	width:70px;
+	height:97vh;
 }
 
 .menu_logo_btn
@@ -107,13 +108,9 @@ icon
 
 .mail_logo_head img
 {
-	margin: 12px 0px 0px 18px;
+	margin: 11px 0px 0px 21px;
 }
 
-.header_col_10
-{
-	width:83%;
-}
 
 .header_active_btn
 {
@@ -142,3 +139,205 @@ icon
     	font-weight: 500;
 	margin: -3px 0px 0px 7px;
 }
+
+.header_icons img	
+{
+	opacity:0.8;
+}
+
+.user_logo
+{
+	height:48px;
+	border-radius: 8px;
+}
+
+.header_main_dflex
+{
+	width:95%;
+}
+
+
+
+/*----------------------NAV-BAR-----------------*/
+
+.compose_btn
+{
+    	background-color: #C2E7FF;
+    	border: none;
+    	border-radius: 16px
+}
+
+.compose_btn:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.compose_btn img
+{
+	float:left;
+}
+
+
+
+.compose_btn label
+{
+	font-size: 0.875rem;
+    	color: #001d35;
+	font-weight: 500;
+}
+
+.nav_inbox
+{
+	background-color:#D3E3FD;
+}
+
+.nav_inbox strong
+{
+	opacity:0.8;
+}
+
+.nav_icons:hover
+{
+	background-color:#3c404314;
+}
+
+.nav_icons label
+{
+	font-size: 15px;
+	color: rgb(32, 33, 36);	
+	opacity:0.9;
+}
+
+.nav_labels label
+{
+	font-size:16px;
+	opacity:0.8;
+	font-weight:500;
+}
+
+.nav_labels div:hover
+{
+	background-color:#3c404314;	
+}
+
+.nav_labels div
+{
+	height:35px;
+	width:35px;
+}
+
+/*-----------Message-Box----------*/
+
+.msg_top
+{
+	border-radius:20px 20px 0px 0px;
+}
+.square_dropdown
+{
+    	width: 20px;
+	height: 38px;
+}
+
+
+
+.square_dropdown:hover
+{
+    	background-color:#3c404314;
+}
+
+.msg_top_left_icons
+{
+	height:48px;
+}
+
+.ref_dot_icon 
+{
+	height:35px;
+	width:35px;
+}
+
+.ref_dot_icon:hover 
+{
+	background-color:#3c404314;
+}
+
+.message_nos
+{
+	width: 8vw;
+    	height: 6vh;
+}
+.message_nos:hover
+{
+	background-color:#3c404314;
+}
+
+.message_nos label
+{
+	font-size: .75rem;
+	color: #5e5e5e;
+}
+
+.msg_top_right img
+{
+	transform:rotate(90deg);
+}
+
+.msg_top_right img:nth-child(2)
+{
+	transform:rotate(270deg);
+}
+/*----------Messages----------*/
+
+.messages
+{
+	background-color:#EAF1FB;
+}
+
+.message_col_2
+{
+	width:13%;	
+}
+
+.message_col_2 span
+{
+	font-size:.875rem;
+	color: #202124;
+}
+
+.message_col_1 img
+{
+	opacity:0.5;
+}
+
+.message_col_3
+{
+	width:18%;
+}
+
+.message_col_3 span
+{
+	font-size:.875rem;
+	color: #202124;
+}
+
+.message_col_4
+{
+	width:48%;
+}
+
+.message_col_4 div
+{
+	overflow: hidden;
+  	text-overflow: ellipsis; 
+	white-space: nowrap;
+	font-size: .875rem;
+    	color: #5f6368;	
+}
+
+.message_col_5
+{
+	width:16%;
+	font-size: .875rem;
+    	color: #5f6368;	
+}
+
