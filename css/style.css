@@ -106,9 +106,14 @@ icon
 	width:38vw;	
 }
 
+.input_group input:focus
+{
+	outline:none;	
+}
+
 .mail_logo_head img
 {
-	margin: 11px 0px 0px 21px;
+	margin: 12px 0px 0px 22px;
 }
 
 
@@ -179,7 +184,7 @@ icon
 
 
 
-.compose_btn label
+.compose_btn span
 {
 	font-size: 0.875rem;
     	color: #001d35;
@@ -291,17 +296,25 @@ icon
 .messages
 {
 	background-color:#EAF1FB;
+	height:auto;
+	margin-top:1px;
+}
+
+.messages:hover
+{
+	    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
 }
 
 .message_col_2
 {
-	width:13%;	
+	max-width:20%;	
 }
 
 .message_col_2 span
 {
-	font-size:.875rem;
+	font-size:15px
 	color: #202124;
+	white-space: nowrap;
 }
 
 .message_col_1 img
@@ -311,18 +324,19 @@ icon
 
 .message_col_3
 {
-	width:18%;
+	width:22%;
 }
 
 .message_col_3 span
 {
 	font-size:.875rem;
 	color: #202124;
+	white-space: nowrap;
 }
 
 .message_col_4
 {
-	width:48%;
+	max-width:62%;
 }
 
 .message_col_4 div
@@ -334,10 +348,104 @@ icon
     	color: #5f6368;	
 }
 
-.message_col_5
+.message_col_5 span
 {
-	width:16%;
-	font-size: .875rem;
-    	color: #5f6368;	
+	width:15%;
 }
 
+.message_col_5 span
+{
+	font-size: .875rem;
+    	color: #5f6368;	
+	white-space: nowrap;
+}
+
+.message_content
+{
+	width:75%;
+}
+
+.message_on_md img
+{
+	opacity:0.5;	
+}
+
+.message_on_md a
+{
+	font-size:.875rem;
+	white-space: nowrap;	
+}
+
+.message_container
+{
+	overflow-y:scroll;
+	height:80vh;
+}
+
+.header_mobile a
+{
+	margin-left:auto;
+}
+
+.input_bar
+{
+	background: #f1f1f1;
+    	border-bottom: 1px solid #d8d8d8;
+}
+
+.input_bar img
+{
+	vertical-align:0px;
+}
+
+.input_bar button
+{
+	height: 30px;
+    	width: 40px;
+}
+
+.header_mobile_heading 
+{
+    	font-size: 16px;
+    	opacity: 0.8;
+}
+
+.header_mobile_txt {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.inbox_search input
+{
+	border:none;
+}
+
+.inbox_search input:focus
+{
+	outline:none;
+}
+
+.message_col_1 div:hover
+{
+	background-color:#3c404314;
+}
+
+.message_col_1 div
+{
+	height: 30px;
+    	width: 30px;
+    	border-radius: 50%;
+}
+
+.search_img
+{
+    	height: 34px;
+    	width: 34px;
+    	border-radius: 50%;
+}
+
+
+.search_img:hover
+{
+	background-color:#3c404314;
+}
