@@ -15,12 +15,13 @@ icon
 	height=10px;
 }
 
-/*---Side bar -----*/
+/*---Side bar ----*/
 
 .side_menu
 {
 	background-color:#EAF1FB;
-	width:68px;
+	width:70px;
+	height:97vh;
 }
 
 .menu_logo_btn
@@ -105,15 +106,16 @@ icon
 	width:38vw;	
 }
 
-.mail_logo_head img
+.input_group input:focus
 {
-	margin: 12px 0px 0px 18px;
+	outline:none;	
 }
 
-.header_col_10
+.mail_logo_head img
 {
-	width:83%;
+	margin: 12px 0px 0px 22px;
 }
+
 
 .header_active_btn
 {
@@ -141,4 +143,309 @@ icon
 	font-size: 0.875rem;
     	font-weight: 500;
 	margin: -3px 0px 0px 7px;
+}
+
+.header_icons img	
+{
+	opacity:0.8;
+}
+
+.user_logo
+{
+	height:48px;
+	border-radius: 8px;
+}
+
+.header_main_dflex
+{
+	width:95%;
+}
+
+
+
+/*----------------------NAV-BAR-----------------*/
+
+.compose_btn
+{
+    	background-color: #C2E7FF;
+    	border: none;
+    	border-radius: 16px
+}
+
+.compose_btn:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.compose_btn img
+{
+	float:left;
+}
+
+
+
+.compose_btn span
+{
+	font-size: 0.875rem;
+    	color: #001d35;
+	font-weight: 500;
+}
+
+.nav_inbox
+{
+	background-color:#D3E3FD;
+}
+
+.nav_inbox strong
+{
+	opacity:0.8;
+}
+
+.nav_icons:hover
+{
+	background-color:#3c404314;
+}
+
+.nav_icons label
+{
+	font-size: 15px;
+	color: rgb(32, 33, 36);	
+	opacity:0.9;
+}
+
+.nav_labels label
+{
+	font-size:16px;
+	opacity:0.8;
+	font-weight:500;
+}
+
+.nav_labels div:hover
+{
+	background-color:#3c404314;	
+}
+
+.nav_labels div
+{
+	height:35px;
+	width:35px;
+}
+
+/*-----------Message-Box----------*/
+
+.msg_top
+{
+	border-radius:20px 20px 0px 0px;
+}
+.square_dropdown
+{
+    	width: 20px;
+	height: 38px;
+}
+
+
+
+.square_dropdown:hover
+{
+    	background-color:#3c404314;
+}
+
+.msg_top_left_icons
+{
+	height:48px;
+}
+
+.ref_dot_icon 
+{
+	height:35px;
+	width:35px;
+}
+
+.ref_dot_icon:hover 
+{
+	background-color:#3c404314;
+}
+
+.message_nos
+{
+	width: 8vw;
+    	height: 6vh;
+}
+.message_nos:hover
+{
+	background-color:#3c404314;
+}
+
+.message_nos label
+{
+	font-size: .75rem;
+	color: #5e5e5e;
+}
+
+.msg_top_right img
+{
+	transform:rotate(90deg);
+}
+
+.msg_top_right img:nth-child(2)
+{
+	transform:rotate(270deg);
+}
+/*----------Messages----------*/
+
+.messages
+{
+	background-color:#EAF1FB;
+	height:auto;
+	margin-top:1px;
+}
+
+.messages:hover
+{
+	    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+
+.message_col_2
+{
+	max-width:20%;	
+}
+
+.message_col_2 span
+{
+	font-size:15px
+	color: #202124;
+	white-space: nowrap;
+}
+
+.message_col_1 img
+{
+	opacity:0.5;
+}
+
+.message_col_3
+{
+	width:22%;
+}
+
+.message_col_3 span
+{
+	font-size:.875rem;
+	color: #202124;
+	white-space: nowrap;
+}
+
+.message_col_4
+{
+	max-width:62%;
+}
+
+.message_col_4 div
+{
+	overflow: hidden;
+  	text-overflow: ellipsis; 
+	white-space: nowrap;
+	font-size: .875rem;
+    	color: #5f6368;	
+}
+
+.message_col_5 span
+{
+	width:15%;
+}
+
+.message_col_5 span
+{
+	font-size: .875rem;
+    	color: #5f6368;	
+	white-space: nowrap;
+}
+
+.message_content
+{
+	width:75%;
+}
+
+.message_on_md img
+{
+	opacity:0.5;	
+}
+
+.message_on_md a
+{
+	font-size:.875rem;
+	white-space: nowrap;	
+}
+
+.message_container
+{
+	overflow-y:scroll;
+	height:80vh;
+}
+
+.header_mobile a
+{
+	margin-left:auto;
+}
+
+.input_bar
+{
+	background: #f1f1f1;
+    	border-bottom: 1px solid #d8d8d8;
+}
+
+.input_bar img
+{
+	vertical-align:0px;
+}
+
+.input_bar button
+{
+	height: 30px;
+    	width: 40px;
+}
+
+.header_mobile_heading 
+{
+    	font-size: 16px;
+    	opacity: 0.8;
+}
+
+.header_mobile_txt {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.inbox_search input
+{
+	border:none;
+}
+
+.inbox_search input:focus
+{
+	outline:none;
+}
+
+.message_col_1 div:hover
+{
+	background-color:#3c404314;
+}
+
+.message_col_1 div
+{
+	height: 30px;
+    	width: 30px;
+    	border-radius: 50%;
+}
+
+.search_img
+{
+    	height: 34px;
+    	width: 34px;
+    	border-radius: 50%;
+}
+
+
+.search_img:hover
+{
+	background-color:#3c404314;
 }
